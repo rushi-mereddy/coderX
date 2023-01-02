@@ -50,6 +50,7 @@
     background-color: #15becfeb;
     margin: auto;
     border-radius: 50%;
+    display: none;
   }
   
   
@@ -330,7 +331,8 @@
 /* Footer */
 .footer {
   padding: 0px 0px 20px 0px;
-  background-color: #212529;
+  background-color: #282C2F;
+  /* border-top: 0.1px solid #474747; */
 }
 
 
