@@ -20,7 +20,7 @@
     font-size: 45px;
     /* color: #132356; */
     font-weight: 700;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     /* max-width: 80%; */
     margin: auto;
   }
@@ -44,6 +44,13 @@
     display: none;
   }
   
+  .hr-line{
+    width: 30%;
+    height: 3px;
+    background-color: #15becfeb;
+    margin: auto;
+    border-radius: 50%;
+  }
   
   
   /* text animation */
@@ -111,10 +118,11 @@
   /* Theme slider start */
   
   .switch {
-    position: relative;
+    /* position: relative; */
     display: inline-block;
     width: 60px;
     height: 34px;
+    position: fixed;
   }
   
   .switch input { 
@@ -219,7 +227,7 @@
   }
 
   .banner-btn:hover{
-    background: linear-gradient(155deg, rgba(2,0,36,1) 0%, rgb(6, 6, 107) 56%, rgb(1, 71, 209) 100%);
+    background: linear-gradient(155deg, rgb(0, 32, 59) 0%, rgb(8, 58, 99) 56%, rgb(1, 86, 197) 100%);
     border: none;
   }
 
@@ -239,3 +247,13 @@
   }
 
   /* What is coderX end */
+
+  /* Why coderX start */
+
+  .why{
+    padding: 50px 0px 50px 0px;
+  }
+  .why-illu{
+    max-width: 50%;
+  }
+  /* Why coderX start end */
