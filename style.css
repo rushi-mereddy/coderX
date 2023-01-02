@@ -248,19 +248,80 @@
 
   /* What is coderX end */
 
+
+
   /* Why coderX start */
 
   .why{
     padding: 50px 0px 50px 0px;
+    background-color: #52525225;
   }
   .why-illu{
-    max-width: 50%;
+    /* max-width: 60%; */
   }
+
   /* Why coderX start end */
+
+
 
 
   /* Programming tracks starts  */
   .prog-trac{
     padding: 50px 0px 50px 0px;
   }
+
+  
+  .trend-card {
+    width: 180px;
+    padding: 5px;
+    border-radius: 45px !important;
+    border: none;
+    background: rgb(0,48,91);
+    background: -moz-linear-gradient(45deg, rgba(0,48,91,1) 0%, rgba(30,125,204,1) 78%, rgba(51,141,255,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(0,48,91,1) 0%, rgba(30,125,204,1) 78%, rgba(51,141,255,1) 100%);
+    background: linear-gradient(45deg, rgba(0,48,91,1) 0%, rgba(30,125,204,1) 78%, rgba(51,141,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00305b",endColorstr="#338dff",GradientType=1);
+    overflow: hidden;
+  }
+
+  .trend-card-title {
+    color: #ffffff;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .p-b{
+    color: #ffffff;
+  }
+
+  .dummy1 {
+    width: 100px;
+    height: 10px;
+    margin-left: 10px;
+    background-color: rgba(255, 192, 203, 0.562);
+    border-radius: 20px;
+  }
+
+  .dummy2 {
+    width: 100px;
+    height: 10px;
+    margin-left: 10px;
+    background-color: rgba(192, 201, 255, 0.562);
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+
+  .illu-img-trend {
+    max-width: 90px;
+    height: 100px;
+    /* max-height: 100px; */
+    margin-top: 25px;
+    margin-bottom: -15px;
+    /* margin-right: 15px !important; */
+  }
+
+  .illu-img-div{
+    padding: 10px ;
+  }
+
   /* Programming tracks starts end*/
