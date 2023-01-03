@@ -277,22 +277,24 @@
     padding: 5px;
     border-radius: 45px !important;
     border: none;
-    background: rgb(0,48,91);
-    background: -moz-linear-gradient(45deg, rgba(0,48,91,1) 0%, rgba(30,125,204,1) 78%, rgba(51,141,255,1) 100%);
+    background: rgb(255, 255, 255);
+    /* background: -moz-linear-gradient(45deg, rgba(0,48,91,1) 0%, rgba(30,125,204,1) 78%, rgba(51,141,255,1) 100%);
     background: -webkit-linear-gradient(45deg, rgba(0,48,91,1) 0%, rgba(30,125,204,1) 78%, rgba(51,141,255,1) 100%);
     background: linear-gradient(45deg, rgba(0,48,91,1) 0%, rgba(30,125,204,1) 78%, rgba(51,141,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00305b",endColorstr="#338dff",GradientType=1);
-    overflow: hidden;
+    overflow: hidden; */
+
+    box-shadow: 1px 2px 2px 3px #42424225;
   }
 
   .trend-card-title {
-    color: #ffffff;
+    color: #002575;
     margin-left: 10px;
     margin-top: 15px;
   }
 
   .p-b{
-    color: #ffffff;
+    color: #002575;
   }
 
   .dummy1 {
