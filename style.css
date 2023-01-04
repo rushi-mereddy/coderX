@@ -273,19 +273,19 @@
 
   
   .trend-card {
-    width: 180px;
+    width: 190px;
     padding: 5px;
     border-radius: 45px !important;
     border: none;
     margin: auto;
-    /* background: rgb(255, 255, 255); */
+    background: rgb(255, 255, 255);
     /* background: -moz-linear-gradient(45deg, rgba(0,48,91,1) 0%, rgba(30,125,204,1) 78%, rgba(51,141,255,1) 100%);
     background: -webkit-linear-gradient(45deg, rgba(0,48,91,1) 0%, rgba(30,125,204,1) 78%, rgba(51,141,255,1) 100%);
     background: linear-gradient(45deg, rgba(0,48,91,1) 0%, rgba(30,125,204,1) 78%, rgba(51,141,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00305b",endColorstr="#338dff",GradientType=1);
     overflow: hidden; */
 
-    box-shadow: 1px 2px 2px 3px #42424225;
+    box-shadow: 1px 2px 2px 3px #66666625;
   }
 
   .trend-card-title {
@@ -302,6 +302,10 @@
     padding-bottom: 4px;
   }
 
+  .btn-pb-enroll{
+    border: 0.3px solid #282C2F;
+  }
+
   .pro{
     background-color: #002575;
     color: #ffffff;
@@ -311,6 +315,34 @@
     /* padding-top: 2px;
     padding-bottom: 4px; */
     border-radius: 10px;
+  }
+
+  .pro-title{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 45px 45px 0px 0px;
+    width: inherit;
+    margin: -5px;
+    font-weight: bold;
+    color: #e2efff;
+    background: rgb(16,106,13);
+    background: -moz-linear-gradient(142deg, rgba(16,106,13,1) 0%, rgba(52,255,86,1) 100%);
+    background: -webkit-linear-gradient(142deg, rgba(16,106,13,1) 0%, rgba(52,255,86,1) 100%);
+    background: linear-gradient(142deg, rgba(16,106,13,1) 0%, rgba(52,255,86,1) 100%);
+  }
+
+  .basic-title{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 45px 45px 0px 0px;
+    width: inherit;
+    margin: -5px;
+    font-weight: bold;
+    color: #e2efff;
+    background: rgb(13,45,106);
+    background: -moz-linear-gradient(124deg, rgba(13,45,106,1) 0%, rgba(52,103,255,1) 100%);
+    background: -webkit-linear-gradient(124deg, rgba(13,45,106,1) 0%, rgba(52,103,255,1) 100%);
+    background: linear-gradient(124deg, rgba(13,45,106,1) 0%, rgba(52,103,255,1) 100%);
   }
 
   .dummy1 {
