@@ -544,6 +544,12 @@
   height: 80vh;
 }
 
+.sec-main-head{
+  font-size: 6rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
 .sec-head-key{
   color: #ff8800;
 }
@@ -598,6 +604,23 @@
   content: '⸰';
 }
 /* Course overview end */
+
+
+
+@media only screen and (max-width: 500px){
+  .sub-banner{
+    height: 100vh;
+  }
+
+  .logo{
+    width: 7em;
+    margin: 35px 35px;
+  }
+
+  .sec-main-head{
+    font-size: 3.6em;
+  }
+}
 
 
 
