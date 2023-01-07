@@ -546,6 +546,14 @@
   color: #5D98AA;
 }
 
+.faq-active:after {
+  content: "\2212";
+  /* Unicode character for "minus" sign (-) */
+  font-size: 25px;
+  color: #35475C;
+}
+
+
 .panel {
   padding: 0 18px;
   text-align: left;
