@@ -15,5 +15,13 @@
                     element.setAttribute('src', 'assets/Smart.png');
                 }
 
+                var element = document.getElementById("whatImg");
+                const forwhatL = element.getAttribute("src");
+                if (forwhatL === "assets/what-learn-dark.png") {
+                  element.setAttribute("src", "assets/what-learn-light.png");
+                } else {
+                  element.setAttribute("src", "assets/what-learn-dark.png");
+                }
+
             };
 
