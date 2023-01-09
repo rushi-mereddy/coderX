@@ -636,9 +636,18 @@
 .circle-points:before{
   content: '⸰';
 }
-/* Course overview start */
- /* .cc */
-/* Course overview end */
+
+/* Upcoming batches start */
+  .dates-ul{
+    list-style-type: none;
+    line-height: 35px;
+  }
+
+  .dates-ul> li{
+    /* display: inline; */
+    margin-left: 3em;
+  }
+/* Upcoming batches end */
 
 /* Course content start */
 
