@@ -514,38 +514,6 @@
 }
 
 
-
-.accordion {
-  background: #ffffff;
-  color: #35475C;
-  /* font-family: 'Open Sans'; */
-  cursor: pointer;
-  padding-left: 18px;
-  padding-top: 10px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-weight: 400;
-  font-size: 16px;
-  text-transform: uppercase;
-  transition: 0.4s;
-  border-top: 1px solid #A1A9B2;
-}
-
-.accordion:after {
-  content: '\002B';
-  /* Unicode character for "plus" sign (+) */
-  color: #35475C;
-  float: right;
-  margin-top: -5px;
-  font-size: 25px;
-}
-
-.accordion:hover::after {
-  color: #5D98AA;
-}
-
 .faq-active:after {
   content: "\2212";
   /* Unicode character for "minus" sign (-) */
@@ -610,6 +578,11 @@
   text-transform: capitalize;
 }
 
+.tag-nb{
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
 .sec-head-key{
   color: #ff8800;
 }
@@ -663,7 +636,11 @@
 .circle-points:before{
   content: '⸰';
 }
+/* Course overview start */
+ /* .cc */
 /* Course overview end */
+
+/* Course content start */
 
 @media(max-width:767px) {
 
